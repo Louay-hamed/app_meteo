@@ -1,0 +1,38 @@
+/* Style du corps de la page */
+body {
+    font-family: Arial, sans-serif;  /* Police d'écriture */
+    background: #667eea;              /* Couleur de fond */
+    text-align: center;               /* Texte centré */
+    padding: 20px;                    /* Espace autour */
+}
+
+/* Style du titre */
+h1 {
+    color: white;                     /* Texte blanc */
+}
+
+/* Style du champ et du bouton */
+input, button {
+    padding: 10px;                    /* Espace intérieur */
+    margin: 5px;                      /* Espace extérieur */
+    border-radius: 20px;              /* Coins arrondis */
+    border: none;                     /* Pas de bordure */
+}
+
+/* Style du bouton */
+button {
+    background: #ff6b6b;              /* Fond rouge clair */
+    color: white;                     /* Texte blanc */
+    cursor: pointer;                  /* Curseur main au survol */
+}
+
+/* Style des cartes météo */
+.weather-card {
+    background: rgba(255,255,255,0.2); /* Fond transparent blanc */
+    border-radius: 20px;               /* Coins arrondis */
+    padding: 20px;                     /* Espace intérieur */
+    margin: 10px;                      /* Espace extérieur */
+    display: inline-block;             /* Cartes côte à côte */
+    width: 200px;                      /* Largeur fixe */
+    color: white;                      /* Texte blanc */
+}
